@@ -5,7 +5,7 @@ import time
 
 
 github_home = 'https://www.github.com/'
-token = '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'
+token = ''
 gh = Github(token)
 
 
