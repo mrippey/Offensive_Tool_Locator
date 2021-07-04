@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "offensv_tool_locator"
+version = "0.1.0"
+description = ""
+authors = ["Mike R <cr8syoki@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+PyGithub = "^1.55"
+SQLAlchemy = "^1.4.20"
+click = "^8.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
